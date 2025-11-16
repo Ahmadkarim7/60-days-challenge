@@ -240,3 +240,28 @@ Why: Absolute always looks to the nearest positioned ancestor — fixed counts a
 //Consistency keep
 // Reading pattern using f and z layout
 //
+
+
+//Javascript
+//console vs snipped
+//alert("Hello world");
+//You can use either single or double quote in the text
+//"Hello" or 'Hello' same thing
+
+//Data type
+//typeof build in function to check data type
+/**
+ * string 
+ * numbers
+ * boolean
+ * 
+ */
+//variable  var x = "Adil";
+// var yourname = prompt("what is your name");
+
+/** 
+ * prompt() - cin
+ */
+//Done Nov 14
+//
+ 
