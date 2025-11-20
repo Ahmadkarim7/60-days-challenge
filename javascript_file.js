@@ -46,4 +46,54 @@ function lifeRemainintg(age){
 }
 lifeRemainintg(20);
 
+//math power and exponent
+Math.power();
+Math.round(3.5);
+//Math.power(base, exponent)
 
+//Random number generation
+var n = Math.random(); //generates random number everytime.
+n = n * 6; //any time it runs it will create number below 6
+n = Math.floor(n); //it will only create full numbers
+console.log(n);  //psuedo code number can be checked in Khan Academy
+//important - Math.round(); only creates randome number 
+
+//Love calculator
+prompt("Enter your name");
+prompt("Enter their name?")
+var lovecalculator = Math.random() * 100;
+lovecalculator = lovecalculator + 1;
+lovecalculator = Math.floor(lovecalculator);
+alert("Your love score is " + lovecalculator + "%");
+
+//If else statment 
+if (lovecalculator === 100 ){
+    alert("You should not leave this person")
+}
+else {
+    alert("Keep it up")
+}
+//double == sign checks if they both are the same conditions
+//triple === sign checks if they have the same data type
+//comparators > < signs
+// AND && 
+// OR ||
+// Not !
+
+//Array 
+var stgarray = ["AkD", "Dka"]
+var arrayone = [1,2,3,4,5,6,7];
+var myegg = arrayone [2];
+arrayone.length;
+arrayone.includes(5);//looking or searching in the array
+
+var entername = prompt("Enter your name");
+
+if (arrayone.includes(stgarray)){
+    alert("welcome")
+}
+else{
+    alert("Next time")
+}
+
+///
