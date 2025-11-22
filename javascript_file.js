@@ -55,7 +55,7 @@ Math.round(3.5);
 var n = Math.random(); //generates random number everytime.
 n = n * 6; //any time it runs it will create number below 6
 n = Math.floor(n); //it will only create full numbers
-console.log(n);  //psuedo code number can be checked in Khan Academy
+console.log(n);  //psuedo code number can be checked in Khan Academy //floor mean full numbers not in decimals
 //important - Math.round(); only creates randome number 
 
 //Love calculator
@@ -96,4 +96,32 @@ else{
     alert("Next time")
 }
 
-///
+///looking for specific number
+var output = [4,5,6]; //.push means adding the value in the array
+output.push(3); //its add in the end of the array
+//.pop(); means delete the last array
+output.pop(4);
+var count = 1;
+function fizbiz(){
+    if (count %3 === 0 && count % 5 === 0){
+        output.push("FizzBuzz");
+    }
+    if (count %3 == 0){
+        output.push("Fizz")
+    } else if(count %5 == 0){
+        output.push("buzz");
+    } 
+    else{
+        output.push(count);
+    }
+    output.push(count);
+    count++; // or count = count + 1
+
+    console.log(output)
+}
+
+//loops while run until true while ()-- state
+//for(i=0; i<2; i++) == iterate
+//else if only gets check if the first condition is false.
+
+
