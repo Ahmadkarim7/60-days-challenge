@@ -122,6 +122,6 @@ function fizbiz(){
 
 //loops while run until true while ()-- state
 //for(i=0; i<2; i++) == iterate
-//else if only gets check if the first condition is false.
+//else if only gets check if the first condition is false...
 
 
