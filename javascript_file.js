@@ -124,4 +124,37 @@ function fizbiz(){
 //for(i=0; i<2; i++) == iterate
 //else if only gets check if the first condition is false...
 
+//Connecting JavaScript file with HTML =========> onload when program load this will do this
+//always put js link in the end of the html file..
 
+
+//======---> Document Object Model
+//It changes the whole html into a tree like document under that html under that body. LIke hieracrchy of scale
+//document; is the whole html file
+//we use it to manipulate the objects from the files
+//click()
+
+//properties
+// car.color = 0;
+// innterHTML -- style -- firstchild  . dot notation
+// and methods
+//clidk() -- appendchild (); setAttribute ();
+//method assoisiacate with object
+
+document.getElementsByTagName("li"); //to target list item
+document.getElementsByClassName("btn"); //target elements by class name
+document.getElementById("btns"); //target by id which is a single item
+document.querySelector("h1"); 
+document.querySelectorAll("h1 .item"); //to select all the elements in the code from one element
+
+document.querySelector("h1").style.color = "red";
+//learn more about DOM in the internet
+
+//class list property--- classList lets you change the CSS classes of an HTML element using JavaScript — you can add, remove, or toggle classes to control how the element looks or behaves.
+
+//innerHTMl it changes the html code inside of it
+//textContent only changes the text inside of html
+
+//attributes are like <img id="photo" src="pic.jpg" alt="My photo">
+//getAttribute means which attribute
+//setAttribute means make changes ("your target attribut", "what changes you want to make")
