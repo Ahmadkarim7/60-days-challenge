@@ -1,11 +1,16 @@
+//detecting key pressed
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 for (var i =0; i<numberOfDrumButtons; i++){
     document.querySelectorAll(".drum")[i].addEventListener("click", function (){
-    
+    var buttonInnerHTML = this.innerHTML;
+    makesound(buttonInnerHTML);
+    buttonAnimation(buttonInnerHTML);
+   
 });
 
 }
 
+//this Click) — Think of this as "the button I touched"
 //var audio = new Audio("sounds/tom-1.mp3");
 //    audio.play();
 
@@ -33,3 +38,78 @@ calculator(5,5,multi); //to check whats happening in each step
 //high order functions that can take other functions as inputs
 
 //New thing how to play audio or sounds in javaScript
+//this = “the thing that is doing this action right now.”
+//Because all the buttons use the same function, but each button needs to know:
+
+//Which button did the user click?”
+
+//this gives the answer.
+//A switch statement is used when you want to check one value against many possible cases
+
+//new creates a new object from a constructor function.
+// MAke a new object from a constructor function.
+
+//keydown anytime you press anykey it will take command that it was pressed
+/*documentaddEventListener("keydown", function(){
+    alert("Key was pressed");
+})*/
+
+//An event = something that happens.
+//When an event happens (like a click or key press),
+//JavaScript sends extra information about it.
+//key tells you WHICH key was pressed.
+
+
+//Detecting keyboard press
+document.addEventListener("keydown", function(event){
+    makesound(event.key);
+    buttonAnimation(event.key);
+});
+function makesound(key){
+    switch (key) {
+    case "w":
+        var tom1 = new Audio("sounds/tom-1.mp3");
+        tom1.play();
+        break;
+    case "a":
+        var tom2 = new Audio("sounds/tom-2.mp3");
+        tom2.play();
+        break;
+    case "s":
+        var tom3 = new Audio("sounds/tom-3.mp3");
+        tom3.play();
+        break;
+    case "d":
+        var tom4 = new Audio("sounds/tom-4.mp3");
+        tom4.play();
+        break;
+    case "j":
+        var snare = new Audio("sounds/snare.mp3");
+        snare.play();
+        break;
+    case "k":
+        var crash = new Audio("sounds/crash.mp3");
+        crash.play();
+        break;
+    case "l":
+        var kickbase = new Audio("sounds/kick-bass.mp3");
+        kickbase.play();
+        break;
+    default:
+        break;
+   }
+};
+
+function buttonAnimation(currentkey){
+
+    var activeButton = document.querySelector("." + currentkey);
+
+    activeButton.classList.add("pressed");
+
+    setTimeout(function(){
+        activeButton.classList.remove("pressed");
+    },100);
+}
+//set timeout function
+//setTimeout() is a function in JavaScript that lets you run code after a delay. --->It has two parameters. first --> This is what you want to happen later. Second--> This is how long to wait before running the function.
+//1000 ms = 1 second
