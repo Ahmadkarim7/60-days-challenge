@@ -8,7 +8,7 @@ alert("Hello");
 
 //Compose input (it will open a window in the top like alert to enter anyting)
 prompt("Enter your name");
-
+//hi
 //slice and dise your strings
 var secondname = "Robert";
 secondname.slice(0,1); //0 is the index and 1(not included 1) is the character. so only print R
