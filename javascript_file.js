@@ -5,7 +5,7 @@ var nome = "Donley";
 nome.length;
 console.log(nome.length);
 alert("Hello");
-
+//
 //Compose input (it will open a window in the top like alert to enter anyting)
 prompt("Enter your name");//
 //hi
