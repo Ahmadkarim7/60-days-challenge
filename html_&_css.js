@@ -41,6 +41,7 @@
 //css color
 //color hun webiste for colors
 // color : #hexcode
+//
 
 //font properties
 //weight , size, and family of font
@@ -269,6 +270,7 @@ Why: Absolute always looks to the nearest positioned ancestor — fixed counts a
 //Done Nov 14
 //
  //
+
 
 
 
