@@ -50,7 +50,7 @@ lifeRemainintg(20);
 Math.power();
 Math.round(3.5);
 //Math.power(base, exponent)
-
+//
 //Random number generation
 var n = Math.random(); //generates random number everytime.
 n = n * 6; //any time it runs it will create number below 6
