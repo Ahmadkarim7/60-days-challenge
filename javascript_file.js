@@ -1,5 +1,5 @@
 alert("Hello "+ "Wolrd");
-//let var data type
+//let var data type jjnuh
 //length to count the length of the variable
 var nome = "Donley";
 nome.length;
