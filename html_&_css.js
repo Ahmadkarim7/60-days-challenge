@@ -3,16 +3,12 @@
 //<br/>
 //<hb/>
 //<ul>
-
 // <li>
 // </ul>
 //order and unode list
 //<ol>
 //  <li></li>
-//new commit
 //</ol>
-//
-//
 //nesting and Identition --ul list inside ul list
 // which means  list inside the list
 //<a> we use it for link like <a href="link"> content </a> dragable=true (attribut)
@@ -41,7 +37,6 @@
 //css color
 //color hun webiste for colors
 // color : #hexcode
-//
 
 //font properties
 //weight , size, and family of font
@@ -270,8 +265,3 @@ Why: Absolute always looks to the nearest positioned ancestor — fixed counts a
 //Done Nov 14
 //
  //
-
-
-
-
-

@@ -1,14 +1,14 @@
 alert("Hello "+ "Wolrd");
-//let var data type jjnuh
+//let var data type
 //length to count the length of the variable
 var nome = "Donley";
 nome.length;
 console.log(nome.length);
 alert("Hello");
-//'
+
 //Compose input (it will open a window in the top like alert to enter anyting)
-prompt("Enter your name");//
-//hihi
+prompt("Enter your name");
+
 //slice and dise your strings
 var secondname = "Robert";
 secondname.slice(0,1); //0 is the index and 1(not included 1) is the character. so only print R
@@ -50,7 +50,7 @@ lifeRemainintg(20);
 Math.power();
 Math.round(3.5);
 //Math.power(base, exponent)
-//
+
 //Random number generation
 var n = Math.random(); //generates random number everytime.
 n = n * 6; //any time it runs it will create number below 6
