@@ -4,6 +4,7 @@ var bellboy1 = {
     name: "Khan",
     place: "USA"
 }
+//
 
 //constructor function
 //for constructor function first alphabet needs to be capitalized
