@@ -20,7 +20,7 @@
 //You can direct(find) any files
 //Root is the top file --THen project fiels --- images we can search like this
 //Additional index.html files for additional pages
-
+//
 //THe html Biolerpate
 //the structuure of html explanation
 
@@ -267,6 +267,7 @@ Why: Absolute always looks to the nearest positioned ancestor — fixed counts a
 //Done Nov 14
 //No change
  
+
 
 
 
