@@ -11,6 +11,7 @@
 //</ol>
 ////
 //
+//
 //nesting and Identition --ul list inside ul list
 // which means  list inside the list
 //<a> we use it for link like <a href="link"> content </a> dragable=true (attribut)
@@ -267,6 +268,7 @@ Why: Absolute always looks to the nearest positioned ancestor — fixed counts a
 //Done Nov 14
 //No change
  
+
 
 
 
