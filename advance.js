@@ -5,7 +5,7 @@ var bellboy1 = {
     place: "USA"
 }
 //
-
+//
 //constructor function
 //for constructor function first alphabet needs to be capitalized
 function Names (name, age){
