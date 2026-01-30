@@ -28,7 +28,7 @@
 //hosting webiste with githib
 
 //should chekc gpt what is capston project
-
+//
 //css
 //property : value
 //css selector
@@ -268,6 +268,7 @@ Why: Absolute always looks to the nearest positioned ancestor — fixed counts a
 //Done Nov 14
 //No change
  
+
 
 
 
