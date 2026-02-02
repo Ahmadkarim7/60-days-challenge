@@ -264,13 +264,14 @@ Why: Absolute always looks to the nearest positioned ancestor — fixed counts a
  */
 //variable  var x = "Adil";
 // var yourname = prompt("what is your name");
-
+//
 /** 
  * prompt() - cin
  */
 //Done Nov 14
 //No change
  
+
 
 
 
