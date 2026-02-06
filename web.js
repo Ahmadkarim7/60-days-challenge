@@ -42,7 +42,7 @@
 
 //css color
 //color hun webiste for colors
-// color : #hexcode
+// color : #hexcodeka
 
 //font properties
 //weight , size, and family of font
@@ -75,7 +75,7 @@ descendant and ancestor
 descendant anscestor{}
 selectorselector{}
 //CSS positioning
-
+//
 static positioning --> Default on top of each other
 
 Relative positioning --> you can move your position from the original
@@ -272,6 +272,7 @@ Why: Absolute always looks to the nearest positioned ancestor — fixed counts a
 //No change
 //
  
+
 
 
 
